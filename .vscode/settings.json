@@ -1,0 +1,3 @@
+{
+  "python.defaultInterpreterPath": "${env:LOCALAPPDATA}\\repo-venvs\\synthetic-data-generator-langchain\\Scripts\\python.exe"
+}
