@@ -150,14 +150,10 @@ cd synthetic-data-generator
 ```
 
 ### 2. Create Virtual Environment (Recommended)
-```bash
-python -m venv venv
-
-# On Windows
-venv\Scripts\activate
-
-# On macOS/Linux
-source venv/bin/activate
+```powershell
+# One-time per machine; venv lives at %LOCALAPPDATA%\repo-venvs\synthetic-data-generator-langchain
+..\setup-venv.ps1
+& "$env:LOCALAPPDATA\repo-venvs\synthetic-data-generator-langchain\Scripts\Activate.ps1"
 ```
 
 ### 3. Install Dependencies
